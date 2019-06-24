@@ -3,6 +3,7 @@
 	background:no-repeat center center scroll;
 	-webkit-background-size:cover;
 	background-size: cover;
+	max-height: 90vh;
 }
 
 .navbar-light .navbar-brand{
@@ -15,6 +16,25 @@
 }
 .dropdown:hover>.dropdown-menu{
 	display: block;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	color:#484343;
+	font-weight:normal;
+}
+
+p{
+	font-size:16px;
+	line-height:22pt;
+	font-weight:400;
+}
+
+.card-img-top{
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 50%
 }
 
 footer {
