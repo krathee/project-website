@@ -37,6 +37,12 @@ p{
 	width: 50%
 }
 
+section {
+	margin: 0;
+	padding: 3vmin 3vmin;
+	overflow: auto;
+}
+
 footer {
   background: rgba(0, 0, 0, 0.815);
   overflow-x: hidden;
@@ -57,11 +63,12 @@ footer input::placeholder {
 
 footer .input-group .input-group-text {
   background: var(--bggradient);
-  border: none;
+  border: 1px solid white;
 }
 
 footer .column i {
   color: #dd2476;
+  size: 30px;
 }
 
 /* It is Adjacent sibling combinator */
@@ -70,11 +77,4 @@ footer .column i + i {
   padding: 0 0.5em;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.815);
-  z-index: 9999;
-  transition: all 1.5s ease;
-}
+
